@@ -1,3 +1,4 @@
+
 # Dotfiles
 
 My personal development environment configurations for macOS, managed with [GNU Stow](https://www.gnu.org/software/stow/).
@@ -184,4 +185,36 @@ Review the changes before committing:
 ```bash
 git add .
 git diff --cached
-git diff --
+git diff --cached --check
+```
+
+Commit and push:
+
+```bash
+git commit -m "Update dotfiles"
+git push
+```
+
+Only stage files you intend to publish. Before pushing, check that no API keys, passwords, access tokens, authentication files, or other private information have been added.
+
+## Safety and Privacy
+
+This is a public repository, so everything committed here should be considered publicly accessible.
+
+- Never commit API keys, passwords, access tokens, or private keys.
+- Keep authentication files and local application data out of Git.
+- Use environment variables for provider credentials.
+- Review changes before every commit and push.
+- Keep local backups when replacing existing configurations.
+
+## Philosophy
+
+- **Simple:** Keep configurations organized by application.
+- **Portable:** Use symlinks to connect configurations to their expected locations.
+- **Maintainable:** Track changes with Git.
+- **Reproducible:** Make it easier to restore a familiar development environment.
+- **Safe:** Keep secrets and private application data out of version control.
+
+---
+
+*Personal dotfiles for my macOS development environment.*
