@@ -1,0 +1,139 @@
+# Deep Focus — high-readability dark theme for Helix
+# Near-black background, cool blue/teal accents, distinct syntax colors.
+
+"ui.background" = { fg = "text", bg = "background" }
+"ui.text" = "text"
+"ui.text.focus" = { fg = "bright", modifiers = ["bold"] }
+"ui.text.inactive" = "muted"
+"ui.text.directory" = "blue"
+
+"ui.linenr" = { fg = "gutter" }
+"ui.linenr.selected" = { fg = "cyan", modifiers = ["bold"] }
+
+"ui.statusline" = { fg = "text", bg = "panel" }
+"ui.statusline.inactive" = { fg = "muted", bg = "panel" }
+"ui.statusline.normal" = { fg = "background", bg = "blue", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "background", bg = "green", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "background", bg = "purple", modifiers = ["bold"] }
+
+"ui.popup" = { fg = "text", bg = "panel" }
+"ui.window" = { fg = "border" }
+"ui.help" = { fg = "text", bg = "panel" }
+
+"ui.menu" = { fg = "text", bg = "panel" }
+"ui.menu.selected" = { fg = "bright", bg = "selection", modifiers = ["bold"] }
+"ui.menu.scroll" = { fg = "cyan", bg = "panel" }
+
+"ui.selection" = { bg = "selection" }
+"ui.selection.primary" = { bg = "selection" }
+"ui.cursor" = { fg = "background", bg = "bright" }
+"ui.cursor.primary" = { fg = "background", bg = "cyan" }
+"ui.cursor.match" = { fg = "bright", bg = "match", modifiers = ["bold"] }
+"ui.cursorline.primary" = { bg = "cursorline" }
+"ui.highlight" = { bg = "match" }
+"ui.highlight.frameline" = { bg = "panel" }
+
+"ui.virtual" = "gutter"
+"ui.virtual.ruler" = { bg = "panel" }
+"ui.virtual.indent-guide" = "indent"
+"ui.virtual.inlay-hint" = { fg = "muted", modifiers = ["italic"] }
+"ui.virtual.jump-label" = { fg = "background", bg = "cyan", modifiers = ["bold"] }
+
+# Syntax: readable distinctions without excessive saturation
+"attribute" = "purple"
+"keyword" = { fg = "purple", modifiers = ["bold"] }
+"keyword.control" = "purple"
+"keyword.control.conditional" = "purple"
+"keyword.control.repeat" = "purple"
+"keyword.control.return" = "purple"
+"keyword.directive" = "purple"
+
+"operator" = "text"
+"punctuation" = "muted"
+"punctuation.delimiter" = "muted"
+"punctuation.bracket" = "text"
+
+"namespace" = "blue"
+"module" = "blue"
+"type" = "blue"
+"type.builtin" = "cyan"
+"type.enum.variant" = "teal"
+"constructor" = "teal"
+
+"function" = "cyan"
+"function.method" = "cyan"
+"function.builtin" = "teal"
+"function.macro" = "purple"
+
+"variable" = "text"
+"variable.builtin" = "teal"
+"variable.parameter" = "lavender"
+"variable.other.member" = "blue"
+"variable.mutable" = { fg = "text", underline.style = "line" }
+
+"constant" = "lavender"
+"constant.builtin" = "teal"
+"constant.numeric" = "amber"
+"constant.character" = "green"
+"constant.character.escape" = "amber"
+
+"string" = "green"
+"string.regexp" = "amber"
+"string.special" = "teal"
+"label" = "amber"
+"tag" = "blue"
+"comment" = { fg = "muted", modifiers = ["italic"] }
+
+"special" = "cyan"
+
+# Markup and documentation
+"markup.heading" = { fg = "blue", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "cyan", modifiers = ["underlined"] }
+"markup.link.text" = "blue"
+"markup.raw" = "green"
+"markup.quote" = "muted"
+"markup.list" = "purple"
+
+# Diff colors
+"diff.plus" = "green"
+"diff.minus" = "red"
+"diff.delta" = "amber"
+
+# Diagnostics
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "amber", style = "curl" } }
+"diagnostic.info" = { underline = { color = "blue", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "teal", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+
+error = "red"
+warning = "amber"
+info = "blue"
+hint = "teal"
+
+[palette]
+background = "#101318"
+panel = "#191E26"
+cursorline = "#1A222C"
+selection = "#29394A"
+match = "#304455"
+border = "#36414E"
+gutter = "#647184"
+indent = "#303946"
+
+text = "#D8DEE9"
+bright = "#F3F6FC"
+muted = "#8491A3"
+
+blue = "#82AAFF"
+cyan = "#7FDBCA"
+teal = "#56C8B2"
+green = "#A6D189"
+purple = "#C4A7E7"
+lavender = "#B8C5F2"
+amber = "#E5C07B"
+red = "#F07178"

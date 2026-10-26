@@ -1,0 +1,47 @@
+
+
+inherits = "base16_default"
+
+"ui.background" = { fg = "foreground", bg = "background" }
+"ui.text" = "foreground"
+"ui.cursor" = { fg = "background", bg = "cyan" }
+"ui.cursor.primary" = { fg = "background", bg = "cyan" }
+"ui.cursorline.primary" = { bg = "line" }
+"ui.selection" = { bg = "selection" }
+"ui.linenr" = "muted"
+"ui.linenr.selected" = "cyan"
+"ui.statusline" = { fg = "foreground", bg = "line" }
+"ui.statusline.normal" = { fg = "background", bg = "blue", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "background", bg = "cyan", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "background", bg = "magenta", modifiers = ["bold"] }
+"ui.popup" = { fg = "foreground", bg = "panel" }
+"ui.menu" = { fg = "foreground", bg = "panel" }
+"ui.menu.selected" = { fg = "foreground", bg = "selection", modifiers = ["bold"] }
+"ui.virtual.indent-guide" = "muted"
+
+"comment" = { fg = "muted", modifiers = ["italic"] }
+"keyword" = "magenta"
+"function" = "blue"
+"function.method" = "blue"
+"type" = "cyan"
+"string" = "green"
+"constant.numeric" = "orange"
+"variable" = "foreground"
+"operator" = "cyan"
+"tag" = "magenta"
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "orange", style = "curl" } }
+
+[palette]
+background = "#161616"
+foreground = "#f2f4f8"
+panel = "#262626"
+line = "#262626"
+selection = "#393939"
+muted = "#6f6f6f"
+blue = "#78a9ff"
+cyan = "#33b1ff"
+magenta = "#ee5396"
+green = "#42be65"
+orange = "#ff832b"
+red = "#fa4d56"

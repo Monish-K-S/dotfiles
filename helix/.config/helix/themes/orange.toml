@@ -1,0 +1,56 @@
+inherits = "base16_default"
+
+"ui.background" = { fg = "foreground", bg = "background" }
+"ui.text" = "foreground"
+"ui.text.focus" = "foreground"
+"ui.cursor" = { fg = "background", bg = "orange" }
+"ui.cursor.primary" = { fg = "background", bg = "orange" }
+"ui.cursorline.primary" = { bg = "surface" }
+"ui.selection" = { bg = "selection" }
+"ui.linenr" = "muted"
+"ui.linenr.selected" = "orange"
+
+"ui.statusline" = { fg = "foreground", bg = "surface" }
+"ui.statusline.normal" = { fg = "background", bg = "orange", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "background", bg = "peach", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "background", bg = "yellow", modifiers = ["bold"] }
+
+"ui.menu" = { fg = "foreground", bg = "surface" }
+"ui.menu.selected" = { fg = "foreground", bg = "selection", modifiers = ["bold"] }
+"ui.popup" = { fg = "foreground", bg = "surface" }
+"ui.window" = { fg = "border" }
+"ui.help" = { fg = "foreground", bg = "surface" }
+"ui.virtual.indent-guide" = "border"
+
+"comment" = { fg = "muted", modifiers = ["italic"] }
+"keyword" = "orange"
+"keyword.control" = "orange"
+"function" = "peach"
+"function.method" = "peach"
+"type" = "yellow"
+"constructor" = "peach"
+"string" = "green"
+"constant.numeric" = "yellow"
+"constant" = "yellow"
+"variable" = "foreground"
+"operator" = "orange"
+"attribute" = "peach"
+"tag" = "orange"
+
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
+"diagnostic.info" = { underline = { color = "blue", style = "curl" } }
+
+[palette]
+background = "#000000"
+foreground = "#EDE7E3"
+surface = "#101010"
+selection = "#302014"
+muted = "#77716D"
+border = "#29211C"
+orange = "#FF9D00"
+peach = "#FFB454"
+yellow = "#FFD6A0"
+green = "#A8C97F"
+red = "#FF6259"
+blue = "#82AAFF"

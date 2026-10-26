@@ -1,0 +1,82 @@
+# Helix adaptation inspired by NvChad theme palettes.
+"ui.background" = { "bg" = "#1b1b1b" }
+"ui.text" = "#bbc2cf"
+"ui.cursor" = { "fg" = "#1b1b1b", "bg" = "#51afef" }
+"ui.cursor.primary" = { "fg" = "#1b1b1b", "bg" = "#bbc2cf" }
+"ui.cursorline" = { "bg" = "#21242b" }
+"ui.selection" = { "bg" = "#3e4451" }
+"ui.linenr" = { "fg" = "#5b6268" }
+"ui.linenr.selected" = { "fg" = "#bbc2cf", "modifiers" = ["bold"] }
+"ui.statusline" = { "fg" = "#bbc2cf", "bg" = "#21242b" }
+"ui.statusline.inactive" = { "fg" = "#5b6268", "bg" = "#1b1b1b" }
+"ui.statusline.normal" = { "fg" = "#1b1b1b", "bg" = "#51afef", "modifiers" = ["bold"] }
+"ui.statusline.insert" = { "fg" = "#1b1b1b", "bg" = "#98be65", "modifiers" = ["bold"] }
+"ui.statusline.select" = { "fg" = "#1b1b1b", "bg" = "#c678dd", "modifiers" = ["bold"] }
+"ui.popup" = { "fg" = "#bbc2cf", "bg" = "#21242b" }
+"ui.window" = { "fg" = "#3e4451" }
+"ui.help" = { "fg" = "#bbc2cf", "bg" = "#21242b" }
+"ui.menu" = { "fg" = "#bbc2cf", "bg" = "#21242b" }
+"ui.menu.selected" = { "fg" = "#1b1b1b", "bg" = "#51afef", "modifiers" = ["bold"] }
+"ui.virtual" = "#5b6268"
+"ui.virtual.inlay-hint" = { "fg" = "#5b6268", "modifiers" = ["italic"] }
+"ui.virtual.whitespace" = "#3e4451"
+"ui.virtual.indent-guide" = "#21242b"
+"ui.highlight" = { "bg" = "#3e4451" }
+"ui.cursor.match" = { "fg" = "#1b1b1b", "bg" = "#ecbe7b", "modifiers" = ["bold"] }
+"ui.text.focus" = { "fg" = "#ffffff", "modifiers" = ["bold"] }
+"ui.text.inactive" = "#5b6268"
+"ui.text.directory" = "#51afef"
+"ui.picker.header" = { "fg" = "#c678dd", "modifiers" = ["bold"] }
+"ui.picker.header.column" = "#bbc2cf"
+"ui.picker.header.column.active" = { "fg" = "#51afef", "modifiers" = ["bold"] }
+"diagnostic.error" = { "underline" = { "color" = "#ff6c6b", "style" = "curl" } }
+"diagnostic.warning" = { "underline" = { "color" = "#ecbe7b", "style" = "curl" } }
+"diagnostic.info" = { "underline" = { "color" = "#51afef", "style" = "curl" } }
+"diagnostic.hint" = { "underline" = { "color" = "#98be65", "style" = "curl" } }
+"error" = "#ff6c6b"
+"warning" = "#ecbe7b"
+"info" = "#51afef"
+"hint" = "#98be65"
+"attribute" = "#da8548"
+"type" = "#ecbe7b"
+"type.builtin" = "#ecbe7b"
+"constructor" = "#c678dd"
+"constant" = "#da8548"
+"constant.builtin" = "#da8548"
+"string" = "#98be65"
+"string.special" = "#ecbe7b"
+"string.escape" = "#56b6c2"
+"comment" = { "fg" = "#5b6268", "modifiers" = ["italic"] }
+"variable" = "#bbc2cf"
+"variable.builtin" = "#ff6c6b"
+"variable.parameter" = "#da8548"
+"variable.other.member" = "#51afef"
+"label" = "#51afef"
+"punctuation" = "#bbc2cf"
+"punctuation.delimiter" = "#5b6268"
+"operator" = "#56b6c2"
+"keyword" = "#c678dd"
+"keyword.control" = "#c678dd"
+"keyword.function" = "#c678dd"
+"keyword.return" = "#c678dd"
+"keyword.operator" = "#c678dd"
+"keyword.directive" = "#51afef"
+"function" = "#51afef"
+"function.builtin" = "#56b6c2"
+"function.method" = "#51afef"
+"function.macro" = "#c678dd"
+"tag" = "#ff6c6b"
+"tag.builtin" = "#ff6c6b"
+"tag.attribute" = "#da8548"
+"namespace" = "#ecbe7b"
+"special" = "#56b6c2"
+"markup.heading" = { "fg" = "#51afef", "modifiers" = ["bold"] }
+"markup.bold" = { "fg" = "#ecbe7b", "modifiers" = ["bold"] }
+"markup.italic" = { "modifiers" = ["italic"] }
+"markup.link.url" = { "fg" = "#51afef", "modifiers" = ["underlined"] }
+"markup.link.text" = "#c678dd"
+"markup.quote" = { "fg" = "#5b6268", "modifiers" = ["italic"] }
+"markup.raw" = "#98be65"
+"diff.plus" = "#98be65"
+"diff.minus" = "#ff6c6b"
+"diff.delta" = "#ecbe7b"

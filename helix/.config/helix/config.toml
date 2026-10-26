@@ -1,0 +1,48 @@
+
+theme = "ayu_dark"
+
+[editor]
+line-number = "absolute"
+mouse = false
+cursorline = true
+color-modes = true
+bufferline = "multiple"
+true-color = true
+auto-pairs = true
+completion-trigger-len = 2
+completion-timeout = 100
+idle-timeout = 250
+preview-completion-insert = true
+default-yank-register = "+"
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "underline"
+
+[editor.indent-guides]
+render = false
+
+[editor.lsp]
+enable = true
+display-messages = true
+display-inlay-hints = false
+auto-signature-help = true
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name"]
+center = ["file-type"]
+right = ["diagnostics", "selections", "position", "file-encoding"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.soft-wrap]
+enable = true
+
+[editor.file-picker]
+hidden = false
+git-ignore = false
+git-global = false
+git-exclude = false
