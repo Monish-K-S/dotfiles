@@ -18,3 +18,4 @@ secrets/
 # Application data
 node_modules/
 .cache/
+/opencode/.config/opencode/service.json
