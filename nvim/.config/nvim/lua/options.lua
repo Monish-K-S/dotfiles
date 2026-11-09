@@ -1,4 +1,9 @@
 require "nvchad.options"
+vim.opt.wrap = true
+vim.opt.linebreak = true
+vim.opt.breakindent = true
+
+vim.opt.equalalways = false
 
 -- add yours here!
 
